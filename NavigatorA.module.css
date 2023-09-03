@@ -1,0 +1,30 @@
+.NavigationContainer{
+    background-color: black;
+    width: 90%;
+    height: 5rem;
+    margin-left: 5%;
+    position: fixed;
+    bottom: 1rem;
+    border-radius: 60px;
+    color: white;
+}
+.navigateBox{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3.9rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.NavigateButton{
+    background-color: black;
+    width: 3.9rem;
+    border-radius: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .5s linear;
+}
+.icon{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
