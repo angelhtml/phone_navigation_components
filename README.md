@@ -22,7 +22,7 @@ NavigatorB.jsx<br />
 NavigatorB.module.css
 
 ```javascript
-import NavigatorA from '~/components/NavigatorB';
+import NavigatorB from '~/components/NavigatorB';
 
 export default function Home() {
   return (
