@@ -15,3 +15,19 @@ export default function Home() {
 }
 ```
 <img src="NavigatorA.PNG"/>
+<hr />
+
+<h3>Type B</h3><br />
+NavigatorB.jsx<br />
+NavigatorB.module.css
+
+```javascript
+import NavigatorA from '~/components/NavigatorB';
+
+export default function Home() {
+  return (
+      <NavigatorB />
+  )
+}
+```
+<img src="NavigatorB.PNG"/>
