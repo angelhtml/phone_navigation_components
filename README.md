@@ -26,7 +26,7 @@ import NavigatorB from '~/components/NavigatorB';
 
 export default function Home() {
   return (
-      <NavigatorB />
+      <NavigatorB bg={"black"} />
   )
 }
 ```
