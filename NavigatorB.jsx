@@ -2,10 +2,10 @@ import { useState } from "react";
 import NavigatorBStyle from "./NavigatorB.module.css";
 import { AiOutlineHome, AiOutlineCompass, AiOutlineMessage, AiOutlineCamera, AiOutlineUp } from 'react-icons/ai';
 
-export default function NavigatorB(){
+export default function NavigatorB({bg="black"}){
     const [buttonState, setButtonstate] = useState("home")
     return(
-        <div className={NavigatorBStyle.NavigationContainer}>
+        <div style={{backgroundColor:bg}} className={NavigatorBStyle.NavigationContainer}>
             <center><div className={NavigatorBStyle.NavigationBar}></div></center>
             <div className={NavigatorBStyle.navigateBox}>
 
