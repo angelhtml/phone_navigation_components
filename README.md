@@ -1,4 +1,7 @@
 # phone_navigation_components
+<p align="center">
+   <img src="https://img.shields.io/badge/React-component-03e2f6.svg" alt="component"/>
+</p>
 super simple phone navigation react components 📱
 <hr />
 <h3>Type A</h3><br />
