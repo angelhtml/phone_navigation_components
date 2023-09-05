@@ -10,7 +10,7 @@ import NavigatorA from '~/components/NavigatorA';
 
 export default function Home() {
   return (
-      <NavigatorA />
+      <NavigatorA bg={"black"} activeColor={"white"} />
   )
 }
 ```
